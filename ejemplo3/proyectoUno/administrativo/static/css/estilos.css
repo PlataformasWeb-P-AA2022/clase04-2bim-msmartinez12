@@ -27,12 +27,16 @@ input[type=text], input[type=number] {
   box-sizing: border-box;
 }
 
-input[type=text|number]:focus {
+/* input[type=text|number]:focus {
   border: 3px solid blue;
-}
+} */
 
 label {
   padding: 12px 10px;
+}
+
+section{
+  background-color:#FDBF14;
 }
 /* manejo de las características de las clases*/
 
@@ -66,11 +70,10 @@ label {
   float:left;
   margin-right:10px;
   margin-bottom:5px;
-  text: #FFF;
-
+  color: #FFF;
 }
 
 footer{
-  background: #5E5E5E;
-  color: #FFF;
+  background-color: #034275;
+  color: rgb(255, 255, 255);
 }

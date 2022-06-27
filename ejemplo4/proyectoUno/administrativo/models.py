@@ -8,7 +8,7 @@ class Estudiante(models.Model):
     cedula = models.CharField(max_length=30, unique=True)
 
     def __str__(self):
-        return "%s %s %s" % (self.nombre, 
+        return "%s %s \n %s" % (self.nombre, 
                 self.apellido,
                 self.cedula)
 
